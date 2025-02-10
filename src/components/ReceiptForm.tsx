@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Save, Printer } from 'lucide-react';
+import { Save } from 'lucide-react';
 import { ReceiptData } from '../types';
 
 interface ReceiptFormProps {

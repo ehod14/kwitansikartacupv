@@ -15,10 +15,6 @@ export const generatePDF = async (receiptElement: HTMLElement, receiptData: Rece
       imageTimeout: 0
     });
 
-    // Use A4 dimensions in mm
-    const pageWidth = 210;
-    const pageHeight = 297;
-
     // Calculate receipt dimensions to fit two receipts per page
     // Make the receipt width about 45% of the page width to allow for margins
     const receiptWidth = 90; // smaller width to fit two receipts
